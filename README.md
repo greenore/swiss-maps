@@ -1,24 +1,14 @@
 # Swiss Maps
 
-This repository provides a mechanism to generate [TopoJSON](https://github.com/mbostock/topojson) from publicly available (but difficult to access) [swisstopo](http://www.swisstopo.admin.ch/internet/swisstopo/en/home.html) geodata.
+This repository provides 2014 [TopoJSON](https://github.com/mbostock/topojson) files for Switzerland from publicly available [swisstopo](http://www.swisstopo.admin.ch/internet/swisstopo/en/home.html) geodata.
 
-## Getting Started
+## How to reproduce
 
-To generate the TopoJSON files you need to install Node.js, either with the [official Node.js installer](http://nodejs.org/) or via [Homebrew](http://mxcl.github.io/homebrew/):
+To generate the TopoJSON files the steps discriped by [Interactive Things](https://github.com/interactivethings/swiss-maps) were followed. It appears that on Windows as well as Linux machines it is difficult to repoduce the described steps. That is why the TopoJSON files are made available in this repository. 
 
-    brew install node
-    
-You also need GDAL and the corresponding python-gdal library installed. Links to the binaries are in the [GDAL Wiki](http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries). On OS X you can also use Homebrew:
+## Available Files
 
-    brew install gdal
-
-To get started, clone this repository and run `make`.
-
-    git clone https://github.com/interactivethings/swiss-maps.git
-    cd swiss-maps
-    make
-
-`make` or `make all` generates the following TopoJSON files:
+The following TopoJSON files are available:
 
 * `ch-country.json`
 * `ch-cantons.json`
