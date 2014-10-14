@@ -27,6 +27,7 @@ The following TopoJSON files can be found in the topo directory:
 
 * Projected, *cartesian* coordinates
 * *Scaled* and *simplified* to a size of **960 × 500** pixels
+* *id* The official ID of the feature, i.e., municipality (BFS), canton, district, lake number or zip code
 
 ## Examples
 
