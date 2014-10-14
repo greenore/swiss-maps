@@ -29,6 +29,17 @@ The following TopoJSON files can be found in the topo directory:
 * *Scaled* and *simplified* to a size of **960 × 500** pixels
 * *id* The official ID of the feature, i.e., municipality (BFS), canton, district, lake number or zip code
 
+## Projections and Dimensions
+
+The coordinates of the source files is the official Swiss reference system [CH1903](http://www.swisstopo.admin.ch/internet/swisstopo/en/home/topics/survey/sys/refsys/switzerland.html) with already [projected coordinates](http://www.swisstopo.admin.ch/internet/swisstopo/en/home/topics/survey/sys/refsys/projections.html).
+
+*This means that if you use D3.js, you must disable the projection* (see this [example of New York Block Groups](http://bl.ocks.org/mbostock/5996232))
+
+```javascript
+var path = d3.geo.path()
+  .projection(null);
+```
+
 ## Examples
 
 * [TopoJSON Cantons and Municipalities](http://bl.ocks.org/herrstucki/4327678) (stored in a single file!)
