@@ -14,6 +14,7 @@ The following TopoJSON files can be found in the topo directory:
 * `ch-cantons.json`
 * `ch-districts.json`
 * `ch-municipalities.json`
+* `ch-plz.json` (zip code boundaries)
 * `ch-country-lakes.json` (country boundaries + lakes)
 * `ch-cantons-lakes.json` (canton boundaries + lakes)
 * `ch-districts-lakes.json` (district boundaries + lakes)
@@ -21,8 +22,6 @@ The following TopoJSON files can be found in the topo directory:
 * `ch-lakes.json`
 * `ch.json` (all of the above combined)
 * For each canton a file with its municipalities and lakes, e.g. `zh-municipalities.json` and `zh-municipalities-lakes.json`
-* `ch-plz.json` (zip code boundaries)
-* `ch-contours.json` (elevation countours, the `CONTOUR_INTERVAL` variable is set to 500 meters)
 
 ## File characteristics:
 
