@@ -24,7 +24,7 @@ The following TopoJSON files can be found in the topo directory:
 * `ch-plz.json` (zip code boundaries)
 * `ch-contours.json` (elevation countours, the `CONTOUR_INTERVAL` variable is set to 500 meters)
 
-The file have the following characteristics:
+## File characteristics:
 
 * Projected, *cartesian* coordinates
 * *Scaled* and *simplified* to a size of **960 × 500** pixels
