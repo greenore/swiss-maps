@@ -39,7 +39,7 @@ The following TopoJSON files can be found in the topo directory:
 
 ### Author
 
-Jeremy Stucki, [Interactive Things](http://interactivethings.com)
+Jeremy Stucki, [Interactive Things](http://interactivethings.com)  
 Tim Hagmann (creating the topoJSON files)
 
 ### Data Source
